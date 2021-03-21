@@ -1,19 +1,11 @@
-# Bounce Sequencer
+# Variable Gates
 
-<img src="bounce-alone.jpg" width=400>
+This companion module to the Bounce Sequencer gives you individual control over both halves of the duty cycle of each step's gate. The left-hand knob controls the high (the gate), and the right-hand knob controls the low (the time interval before the next gate fires). The button or toggle switch controls whether a gate is emitted at that step.
 
-An 8-step sequencer with a pushbutton interface. Toggle switch selects up / down / or bounce mode. In up or down mode, pushing any two buttons will cause the sequencer to skip the steps between them (either between them on the inside, or between them on the outside, depending).
+In externally-clocked mode, an external clock is plugged in to the Bounce Sequencer, and the sequence progresses based on that clock. Each gate will fire (or not, depending on the toggle) when the clock advances. It's possible to set a gate length to span multiple clock steps in this mode.
 
-In bounce mode, any lit button will cause the sequencer to reverse direction when it hits it.
+In free-running mode, there is no clock plugged in to the Bounce Sequencer, and the Variable Gates module emits a clock step at the end of every gate cycle. This enables you to swing your sequence to the point of extreme stutter-step brokenness :)
 
-There's a toggle to select ~2 octave or ~3 octave range, and a hold/run toggle.
+The Variable Gates WILL NOT DO ANYTHING without its sibling the Bounce Sequencer: https://github.com/508-loop-detected/bounce-sequencer
 
-In addition to the main clock input and the main sequence CV output, there are three additional outputs:
-
-- CV from odd-numbered steps only
-- CV from even-numbered steps only
-- a one-half division of the clock
-
-There is an expansion bus on the back for driving the optional 8-step trigger sequencer.
-
-<img src="bounce-plus-triggers.JPG" width=600>
+All of the actual logic is in the Bounce Sequencer, which connects via expansion bus on the back.
