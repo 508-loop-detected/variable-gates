@@ -9,8 +9,8 @@ ID,Name,Designator,Footprint,Quantity,Source Link
 8,1N4148,"D1, D2, D11, D12, D13, D14, D33, D34, D35, D36, D37, D38",SOD-80_L3.5-W1.5-RD,12,
 9,1N5819,"D5, D8",DO-41,2,
 10,Ferrite,"F7, F8",7MM_RESISTOR,2,
-11,X4611WV-05I-C28D40,"H1, H2, H3, H4, H5",HDR-TH_5P-P2.00-V-M,5,
-12,X4611WV-04I-C28D40,H6,HDR-TH_4P-P2.00-V-M,1,
+11,X4611WV-05I-C28D40,"H1, H2, H3, H4, H5",HDR-TH_5P-P2.00-V-M,5,https://www.taydaelectronics.com/connectors-sockets/pin-headers/40-pin-2-00-mm-single-row-pin-header-strip.html
+12,X4611WV-04I-C28D40,H6,HDR-TH_4P-P2.00-V-M,1,https://www.taydaelectronics.com/connectors-sockets/pin-headers/40-pin-2-00-mm-single-row-pin-header-strip.html
 13,HDR-IDC-2.54-2X3P,P1,IDC-TH_6P-P2.54_C11214,1,
 14,IDC Box 2.54mm 2X5P,P4,EURO_PWR_HEADER_LOCK,1,
 15,BC857,"Q2, Q3, Q5",SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,3,
