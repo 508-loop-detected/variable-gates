@@ -13,3 +13,5 @@ The Variable Gates WILL NOT DO ANYTHING without its sibling the Bounce Sequencer
 All of the actual logic is in the Bounce Sequencer, which connects via expansion bus on the back.
 
 NOTE TO BUILDERS: This project, like a lot of my projects, uses 2mm pin headers, NOT the more common 2.54mm pin headers. YOU WILL BE SAD if you don't make note of this difference!
+
+PCBs + Panels are available on my website: https://508.loopdetected.net/product/bounce-variable-gates-expander-pcbpanel-pushbutton-version/
